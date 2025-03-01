@@ -146,7 +146,7 @@ and place IMAGES under Messidor-2-master folder as shown below.
 </pre>
 
 <h3>2.2 Download Messidor-2 LABELS</h3>
-Please download our own Messdir-2 LABELS <a href="https://drive.google.com/file/d/1v7zoHAeH3sDtojDXi76s7JB8xz5p1jXR/view?usp=sharing">
+Please download our own Messidor-2 LABELS <a href="https://drive.google.com/file/d/1v7zoHAeH3sDtojDXi76s7JB8xz5p1jXR/view?usp=sharing">
 Antillia-Messidor-2-LABELS-V2.zip</a>,
 and place it under Messidor-2-master folder as shown below.
 
