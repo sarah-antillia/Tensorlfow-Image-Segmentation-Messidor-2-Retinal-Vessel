@@ -1,6 +1,10 @@
-<h2>Tensorflow-Image-Segmentation-Messidor-2-Retinal-Vessel (2025/03/01)</h2>
+<h2>Tensorflow-Image-Segmentation-Messidor-2-Retinal-Vessel (2025/03/14)</h2>
 Sarah T. Arai<br>
 Software Laboratory antillia.com<br><br>
+<li>
+2025/03/14: Removed "./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/" folder.
+</li>
+<br>
 This is the first experiment of Image Segmentation for <b>Messidor-2</b> Retinal Vessel
  based on 
 the latest <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>,
@@ -47,30 +51,7 @@ Tensorflow-Image-Segmentation-Retinal-Vessel</a> based on <a href="https://resea
 <hr>
 <b>Actual Image Segmentation for Messidor-2 IMAGES of 2240x1488 pixels</b><br>
 As shown below, the inferred masks look similar to the ground truth masks. <br>
-<table>
-<tr>
-<th>Input: image</th>
-<th>Mask (antillia-ground_truth-v2)</th>
-<th>Prediction: inferred_mask</th>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051020_44261_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051020_44261_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051020_44261_0100_PP.jpg" width="320" height="auto"></td>
-</tr>
-
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051020_45004_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051020_45004_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051020_45004_0100_PP.jpg" width="320" height="auto"></td>
-</tr>
-
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051130_60234_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051130_60234_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051130_60234_0400_PP.jpg" width="320" height="auto"></td>
-</tr>
-</table>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/asset/actual_segmentation.png" width="1024" height="auto">
 
 <hr>
 <br>
@@ -356,45 +337,11 @@ python ../../../src/TensorflowUNetInferencer.py ./train_eval_infer.config
 <br>
 <hr>
 <b>Enlarged images and masks of 2240x1488 pixels</b><br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/asset/Enlarged_1.png" width="1024" height="auto">
+<br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/asset/Enlarged_2.png" width="1024" height="auto">
 
-<table>
-<tr>
-<th>Image</th>
-<th>Mask (antillia-ground_truth-v2)</th>
-<th>Inferred-mask</th>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051020_45004_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051020_45004_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051020_45004_0100_PP.jpg" width="320" height="auto"></td>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051020_44338_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051020_44338_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051020_44338_0100_PP.jpg" width="320" height="auto"></td>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051021_39552_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051021_39552_0100_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051021_39552_0100_PP.jpg" width="320" height="auto"></td>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051116_44718_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051116_44718_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051116_44718_0400_PP.jpg" width="320" height="auto"></td>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051202_36970_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051202_36970_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051202_36970_0400_PP.jpg" width="320" height="auto"></td>
-</tr>
-<tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/images/20051212_36640_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test/masks/20051212_36640_0400_PP.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Messidor-2/mini_test_output/20051212_36640_0400_PP.jpg" width="320" height="auto"></td>
-</tr>
-</table>
-<hr>
+hr>
 <br>
 <h3>
 <h3>
